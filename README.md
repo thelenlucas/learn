@@ -13,6 +13,7 @@ This is a personal system I built for myself, shared as-is. Built as a pi config
 - `extensions/ask-user-question/` — the agent asks you questions through a UI popup
 - `extensions/quiz/` — graded questions with instant feedback (✓/✗, correct answer, explanation)
 - `extensions/md-log/` — link a markdown file to the session
+- `skills/flashcards/` + `extensions/flashcards.ts` — at the end of each session, turn what was taught into [Obsidian Spaced Repetition](https://github.com/st3v3nmw/obsidian-spaced-repetition) cards (`save_flashcards` tool; `/flashcards` to trigger, `/flashcards-deck <path>` to pick the deck note, which defaults to `<log name> - flashcards.md` next to the md-log file)
 - `extensions/visual-tools/` — tools for visualization subagents
 - `agents/` — `researcher`, `svg-maker`, `mermaid-maker`: the subagents the system delegates to
 
